@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{ /* layer directive or @layer  just put this class (btn)after the components */
+    .btn{
+        @apply bg-red-500 text-blue-600
+    }
+}
